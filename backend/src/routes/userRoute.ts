@@ -8,7 +8,6 @@ import {
 import { adminOnly } from "../middlewares/auth.js";
 const app = express.Router();
 
-// create new user
 // @ts-expect-error
 app.post("/new", newUser);
 
